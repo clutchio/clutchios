@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C2C2FBE7149942C400F20778 /* Clutch Universal Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C2C2FBE8149942C400F20778 /* Build configuration list for PBXAggregateTarget "Clutch Universal Framework" */;
+			buildPhases = (
+				C2C2FBEB149942DD00F20778 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Clutch Universal Framework";
+			productName = "Clutch Universal Framework";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C216F58D149C1E870033885C /* ClutchUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C216F58B149C1E870033885C /* ClutchUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C216F58E149C1E870033885C /* ClutchUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C216F58C149C1E870033885C /* ClutchUtils.m */; };
+		C233D087155B28AF00656715 /* ClutchAB.h in Headers */ = {isa = PBXBuildFile; fileRef = C233D085155B28AF00656715 /* ClutchAB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C233D088155B28AF00656715 /* ClutchAB.m in Sources */ = {isa = PBXBuildFile; fileRef = C233D086155B28AF00656715 /* ClutchAB.m */; };
+		C267F0B614995BE70071F973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C267F0B214995BE60071F973 /* InfoPlist.strings */; };
+		C2C2FBBA1499415500F20778 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25C2735144CE914001D0534 /* UIKit.framework */; };
+		C2C2FBBB1499415500F20778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25C2724144CE6E9001D0534 /* Foundation.framework */; };
+		C2C2FBBE1499419C00F20778 /* ClutchAFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C201E4BF14980E9700836118 /* ClutchAFHTTPClient.m */; };
+		C2C2FBC01499419C00F20778 /* ClutchAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C201E4C114980E9700836118 /* ClutchAFHTTPRequestOperation.m */; };
+		C2C2FBC31499419C00F20778 /* ClutchAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C201E4CA14980E9700836118 /* ClutchAFNetworkActivityIndicatorManager.m */; };
+		C2C2FBC61499419C00F20778 /* ClutchAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C201E4CF14980E9700836118 /* ClutchAFURLConnectionOperation.m */; };
+		C2C2FBC7149941A400F20778 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C226FFE5144E3039001EAB61 /* UIDevice+IdentifierAddition.m */; };
+		C2C2FBC9149941A400F20778 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C226FFE7144E3039001EAB61 /* NSString+MD5Addition.m */; };
+		C2C2FBCC149941A800F20778 /* ClutchJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D025E0144D02AC009AA96D /* ClutchJSONKit.m */; };
+		C2C2FBCE149941BB00F20778 /* ClutchSync.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7411D144EB207007D9C91 /* ClutchSync.m */; };
+		C2C2FBD0149941BB00F20778 /* ClutchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25C2739144CE967001D0534 /* ClutchView.m */; };
+		C2C2FBD2149941BB00F20778 /* ClutchAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C226FFEE144E311A001EAB61 /* ClutchAPIClient.m */; };
+		C2C2FBD4149941BB00F20778 /* ClutchConf.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EAC8B71454D3ED00F0ACE7 /* ClutchConf.m */; };
+		C2C2FBD6149941BB00F20778 /* ClutchStats.m in Sources */ = {isa = PBXBuildFile; fileRef = C22FC0261488195700391E80 /* ClutchStats.m */; };
+		C2C2FBD8149941FF00F20778 /* ClutchAFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C201E4BE14980E9700836118 /* ClutchAFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBD9149941FF00F20778 /* ClutchAFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C201E4C014980E9700836118 /* ClutchAFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBDA149941FF00F20778 /* ClutchAFJSONUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C201E4C814980E9700836118 /* ClutchAFJSONUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBDB149941FF00F20778 /* ClutchAFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C201E4C914980E9700836118 /* ClutchAFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBDC149941FF00F20778 /* ClutchAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C201E4CB14980E9700836118 /* ClutchAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBDD149941FF00F20778 /* ClutchAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C201E4CE14980E9700836118 /* ClutchAFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBDE149941FF00F20778 /* UIDevice+IdentifierAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = C226FFE6144E3039001EAB61 /* UIDevice+IdentifierAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBDF149941FF00F20778 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = C226FFE8144E3039001EAB61 /* NSString+MD5Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBE0149941FF00F20778 /* ClutchJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D025DF144D02AC009AA96D /* ClutchJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBE11499421B00F20778 /* ClutchSync.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B7411E144EB207007D9C91 /* ClutchSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBE21499421B00F20778 /* ClutchView.h in Headers */ = {isa = PBXBuildFile; fileRef = C25C2738144CE967001D0534 /* ClutchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBE31499421B00F20778 /* ClutchAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C226FFED144E311A001EAB61 /* ClutchAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBE41499421B00F20778 /* ClutchConf.h in Headers */ = {isa = PBXBuildFile; fileRef = C2EAC8B61454D3ED00F0ACE7 /* ClutchConf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBE51499421B00F20778 /* ClutchStats.h in Headers */ = {isa = PBXBuildFile; fileRef = C22FC0251488195700391E80 /* ClutchStats.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C2FBE61499421B00F20778 /* Clutch.h in Headers */ = {isa = PBXBuildFile; fileRef = C29EC1AC1499320C00EAB623 /* Clutch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D6F15E14995CF600074D04 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6F15D14995CF600074D04 /* libsqlite3.dylib */; };
+		C2FCA66A14B7E15000203D21 /* ClutchLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FCA66814B7E15000203D21 /* ClutchLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FCA66B14B7E15000203D21 /* ClutchLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FCA66914B7E15000203D21 /* ClutchLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C201E4BE14980E9700836118 /* ClutchAFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAFHTTPClient.h; sourceTree = "<group>"; };
+		C201E4BF14980E9700836118 /* ClutchAFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchAFHTTPClient.m; sourceTree = "<group>"; };
+		C201E4C014980E9700836118 /* ClutchAFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C201E4C114980E9700836118 /* ClutchAFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchAFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C201E4C814980E9700836118 /* ClutchAFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAFJSONUtilities.h; sourceTree = "<group>"; };
+		C201E4C914980E9700836118 /* ClutchAFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		C201E4CA14980E9700836118 /* ClutchAFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchAFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		C201E4CB14980E9700836118 /* ClutchAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAFNetworking.h; sourceTree = "<group>"; };
+		C201E4CE14980E9700836118 /* ClutchAFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAFURLConnectionOperation.h; sourceTree = "<group>"; };
+		C201E4CF14980E9700836118 /* ClutchAFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchAFURLConnectionOperation.m; sourceTree = "<group>"; };
+		C216F58B149C1E870033885C /* ClutchUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchUtils.h; sourceTree = "<group>"; };
+		C216F58C149C1E870033885C /* ClutchUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchUtils.m; sourceTree = "<group>"; };
+		C226FFE5144E3039001EAB61 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		C226FFE6144E3039001EAB61 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		C226FFE7144E3039001EAB61 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		C226FFE8144E3039001EAB61 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		C226FFED144E311A001EAB61 /* ClutchAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAPIClient.h; sourceTree = "<group>"; };
+		C226FFEE144E311A001EAB61 /* ClutchAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchAPIClient.m; sourceTree = "<group>"; };
+		C22FC0251488195700391E80 /* ClutchStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchStats.h; sourceTree = "<group>"; };
+		C22FC0261488195700391E80 /* ClutchStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchStats.m; sourceTree = "<group>"; };
+		C233D085155B28AF00656715 /* ClutchAB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchAB.h; sourceTree = "<group>"; };
+		C233D086155B28AF00656715 /* ClutchAB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchAB.m; sourceTree = "<group>"; };
+		C25C2724144CE6E9001D0534 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C25C2735144CE914001D0534 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C25C2738144CE967001D0534 /* ClutchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchView.h; sourceTree = "<group>"; };
+		C25C2739144CE967001D0534 /* ClutchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchView.m; sourceTree = "<group>"; };
+		C267F0AF14995BE60071F973 /* Clutch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Clutch-Info.plist"; sourceTree = "<group>"; };
+		C267F0B014995BE60071F973 /* Clutch-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Clutch-Prefix.pch"; sourceTree = "<group>"; };
+		C267F0B314995BE60071F973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C29EC1AC1499320C00EAB623 /* Clutch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clutch.h; sourceTree = "<group>"; };
+		C2B7411D144EB207007D9C91 /* ClutchSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchSync.m; sourceTree = "<group>"; };
+		C2B7411E144EB207007D9C91 /* ClutchSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchSync.h; sourceTree = "<group>"; };
+		C2C2FBAC1499398100F20778 /* Clutch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Clutch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D025DF144D02AC009AA96D /* ClutchJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchJSONKit.h; sourceTree = "<group>"; };
+		C2D025E0144D02AC009AA96D /* ClutchJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchJSONKit.m; sourceTree = "<group>"; };
+		C2D6F15D14995CF600074D04 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C2EAC8B61454D3ED00F0ACE7 /* ClutchConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchConf.h; sourceTree = "<group>"; };
+		C2EAC8B71454D3ED00F0ACE7 /* ClutchConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchConf.m; sourceTree = "<group>"; };
+		C2FCA66814B7E15000203D21 /* ClutchLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClutchLoadingView.h; sourceTree = "<group>"; };
+		C2FCA66914B7E15000203D21 /* ClutchLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClutchLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C2FBA91499398100F20778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6F15E14995CF600074D04 /* libsqlite3.dylib in Frameworks */,
+				C2C2FBBA1499415500F20778 /* UIKit.framework in Frameworks */,
+				C2C2FBBB1499415500F20778 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C201E4BC14980DD500836118 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C201E4BE14980E9700836118 /* ClutchAFHTTPClient.h */,
+				C201E4BF14980E9700836118 /* ClutchAFHTTPClient.m */,
+				C201E4C014980E9700836118 /* ClutchAFHTTPRequestOperation.h */,
+				C201E4C114980E9700836118 /* ClutchAFHTTPRequestOperation.m */,
+				C201E4C814980E9700836118 /* ClutchAFJSONUtilities.h */,
+				C201E4C914980E9700836118 /* ClutchAFNetworkActivityIndicatorManager.h */,
+				C201E4CA14980E9700836118 /* ClutchAFNetworkActivityIndicatorManager.m */,
+				C201E4CB14980E9700836118 /* ClutchAFNetworking.h */,
+				C201E4CE14980E9700836118 /* ClutchAFURLConnectionOperation.h */,
+				C201E4CF14980E9700836118 /* ClutchAFURLConnectionOperation.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C226FFB7144E2B32001EAB61 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C201E4BC14980DD500836118 /* AFNetworking */,
+				C226FFE4144E302C001EAB61 /* UDID */,
+				C226FFB8144E2B3A001EAB61 /* JSONKit */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		C226FFB8144E2B3A001EAB61 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				C2D025DF144D02AC009AA96D /* ClutchJSONKit.h */,
+				C2D025E0144D02AC009AA96D /* ClutchJSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		C226FFE4144E302C001EAB61 /* UDID */ = {
+			isa = PBXGroup;
+			children = (
+				C226FFE5144E3039001EAB61 /* UIDevice+IdentifierAddition.m */,
+				C226FFE6144E3039001EAB61 /* UIDevice+IdentifierAddition.h */,
+				C226FFE7144E3039001EAB61 /* NSString+MD5Addition.m */,
+				C226FFE8144E3039001EAB61 /* NSString+MD5Addition.h */,
+			);
+			name = UDID;
+			sourceTree = "<group>";
+		};
+		C25C2716144CE6E9001D0534 = {
+			isa = PBXGroup;
+			children = (
+				C25C2726144CE6E9001D0534 /* Clutch */,
+				C25C2723144CE6E9001D0534 /* Frameworks */,
+				C25C2722144CE6E9001D0534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25C2722144CE6E9001D0534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C2FBAC1499398100F20778 /* Clutch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25C2723144CE6E9001D0534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6F15D14995CF600074D04 /* libsqlite3.dylib */,
+				C25C2735144CE914001D0534 /* UIKit.framework */,
+				C25C2724144CE6E9001D0534 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C25C2726144CE6E9001D0534 /* Clutch */ = {
+			isa = PBXGroup;
+			children = (
+				C226FFB7144E2B32001EAB61 /* Vendor */,
+				C2B7411E144EB207007D9C91 /* ClutchSync.h */,
+				C2B7411D144EB207007D9C91 /* ClutchSync.m */,
+				C25C2738144CE967001D0534 /* ClutchView.h */,
+				C25C2739144CE967001D0534 /* ClutchView.m */,
+				C226FFED144E311A001EAB61 /* ClutchAPIClient.h */,
+				C226FFEE144E311A001EAB61 /* ClutchAPIClient.m */,
+				C2EAC8B61454D3ED00F0ACE7 /* ClutchConf.h */,
+				C2EAC8B71454D3ED00F0ACE7 /* ClutchConf.m */,
+				C22FC0251488195700391E80 /* ClutchStats.h */,
+				C22FC0261488195700391E80 /* ClutchStats.m */,
+				C216F58B149C1E870033885C /* ClutchUtils.h */,
+				C216F58C149C1E870033885C /* ClutchUtils.m */,
+				C2FCA66814B7E15000203D21 /* ClutchLoadingView.h */,
+				C2FCA66914B7E15000203D21 /* ClutchLoadingView.m */,
+				C233D085155B28AF00656715 /* ClutchAB.h */,
+				C233D086155B28AF00656715 /* ClutchAB.m */,
+				C29EC1AC1499320C00EAB623 /* Clutch.h */,
+				C25C2727144CE6E9001D0534 /* Supporting Files */,
+			);
+			path = Clutch;
+			sourceTree = "<group>";
+		};
+		C25C2727144CE6E9001D0534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C267F0AF14995BE60071F973 /* Clutch-Info.plist */,
+				C267F0B014995BE60071F973 /* Clutch-Prefix.pch */,
+				C267F0B214995BE60071F973 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2C2FBBC1499417600F20778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C2FBE11499421B00F20778 /* ClutchSync.h in Headers */,
+				C2C2FBE21499421B00F20778 /* ClutchView.h in Headers */,
+				C2C2FBE31499421B00F20778 /* ClutchAPIClient.h in Headers */,
+				C2C2FBE41499421B00F20778 /* ClutchConf.h in Headers */,
+				C2C2FBE51499421B00F20778 /* ClutchStats.h in Headers */,
+				C216F58D149C1E870033885C /* ClutchUtils.h in Headers */,
+				C2FCA66A14B7E15000203D21 /* ClutchLoadingView.h in Headers */,
+				C2C2FBE61499421B00F20778 /* Clutch.h in Headers */,
+				C233D087155B28AF00656715 /* ClutchAB.h in Headers */,
+				C2C2FBDC149941FF00F20778 /* ClutchAFNetworking.h in Headers */,
+				C2C2FBD8149941FF00F20778 /* ClutchAFHTTPClient.h in Headers */,
+				C2C2FBD9149941FF00F20778 /* ClutchAFHTTPRequestOperation.h in Headers */,
+				C2C2FBDA149941FF00F20778 /* ClutchAFJSONUtilities.h in Headers */,
+				C2C2FBDB149941FF00F20778 /* ClutchAFNetworkActivityIndicatorManager.h in Headers */,
+				C2C2FBDD149941FF00F20778 /* ClutchAFURLConnectionOperation.h in Headers */,
+				C2C2FBDE149941FF00F20778 /* UIDevice+IdentifierAddition.h in Headers */,
+				C2C2FBDF149941FF00F20778 /* NSString+MD5Addition.h in Headers */,
+				C2C2FBE0149941FF00F20778 /* ClutchJSONKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2C2FBAB1499398100F20778 /* Clutch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C2FBB81499398200F20778 /* Build configuration list for PBXNativeTarget "Clutch" */;
+			buildPhases = (
+				C2C2FBA81499398100F20778 /* Sources */,
+				C2C2FBA91499398100F20778 /* Frameworks */,
+				C2C2FBAA1499398100F20778 /* Resources */,
+				C2C2FBBC1499417600F20778 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clutch;
+			productName = ClutchFramework;
+			productReference = C2C2FBAC1499398100F20778 /* Clutch.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25C2718144CE6E9001D0534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Made with Lasers, LLC.";
+			};
+			buildConfigurationList = C25C271B144CE6E9001D0534 /* Build configuration list for PBXProject "Clutch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C25C2716144CE6E9001D0534;
+			productRefGroup = C25C2722144CE6E9001D0534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C2FBAB1499398100F20778 /* Clutch */,
+				C2C2FBE7149942C400F20778 /* Clutch Universal Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C2FBAA1499398100F20778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C267F0B614995BE70071F973 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2C2FBEB149942DD00F20778 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=Clutch\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C2FBA81499398100F20778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C2FBCE149941BB00F20778 /* ClutchSync.m in Sources */,
+				C2C2FBD0149941BB00F20778 /* ClutchView.m in Sources */,
+				C2C2FBD2149941BB00F20778 /* ClutchAPIClient.m in Sources */,
+				C2C2FBD4149941BB00F20778 /* ClutchConf.m in Sources */,
+				C2C2FBD6149941BB00F20778 /* ClutchStats.m in Sources */,
+				C2C2FBCC149941A800F20778 /* ClutchJSONKit.m in Sources */,
+				C2C2FBC7149941A400F20778 /* UIDevice+IdentifierAddition.m in Sources */,
+				C2C2FBC9149941A400F20778 /* NSString+MD5Addition.m in Sources */,
+				C2C2FBBE1499419C00F20778 /* ClutchAFHTTPClient.m in Sources */,
+				C2C2FBC01499419C00F20778 /* ClutchAFHTTPRequestOperation.m in Sources */,
+				C2C2FBC31499419C00F20778 /* ClutchAFNetworkActivityIndicatorManager.m in Sources */,
+				C2C2FBC61499419C00F20778 /* ClutchAFURLConnectionOperation.m in Sources */,
+				C216F58E149C1E870033885C /* ClutchUtils.m in Sources */,
+				C2FCA66B14B7E15000203D21 /* ClutchLoadingView.m in Sources */,
+				C233D088155B28AF00656715 /* ClutchAB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C267F0B214995BE60071F973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C267F0B314995BE60071F973 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25C272C144CE6E9001D0534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C25C272D144CE6E9001D0534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C2FBB61499398200F20778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DEAD_CODE_STRIPPING = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clutch/Clutch-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Clutch/Clutch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				LLVM_LTO = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = ./build/CACHE/SharedPrecompiledHeaders;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C2C2FBB71499398200F20778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clutch/Clutch-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Clutch/Clutch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				LLVM_LTO = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = ./build/CACHE/SharedPrecompiledHeaders;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		C2C2FBE9149942C400F20778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2C2FBEA149942C400F20778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25C271B144CE6E9001D0534 /* Build configuration list for PBXProject "Clutch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25C272C144CE6E9001D0534 /* Debug */,
+				C25C272D144CE6E9001D0534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C2FBB81499398200F20778 /* Build configuration list for PBXNativeTarget "Clutch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C2FBB61499398200F20778 /* Debug */,
+				C2C2FBB71499398200F20778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C2FBE8149942C400F20778 /* Build configuration list for PBXAggregateTarget "Clutch Universal Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C2FBE9149942C400F20778 /* Debug */,
+				C2C2FBEA149942C400F20778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25C2718144CE6E9001D0534 /* Project object */;
+}
